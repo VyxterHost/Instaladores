@@ -1,0 +1,44 @@
+connection_throttle: 4000
+connection_throttle_limit: 3
+timeout: 30000
+stats: 82c1ec65-2529-4740-a210-33a014488210
+permissions:
+  default: []
+network_compression_threshold: 256
+servers:
+  lobby:
+    motd: '&9Powered by &fvyxterhost.com'
+    address: localhost:25565
+    restricted: false
+player_limit: -1
+prevent_proxy_connections: false
+server_connect_timeout: 5000
+enforce_secure_profile: false
+remote_ping_timeout: 5000
+forge_support: true
+remote_ping_cache: -1
+log_commands: true
+log_pings: true
+ip_forward: true
+disabled_commands:
+- end
+- ip
+groups:
+  md_5: []
+listeners:
+- host: 0.0.0.0:00000
+  query_port: 00000
+  motd: '&9Powered by &fvyxterhost.com'
+  max_players: 1
+  force_default_server: true
+  tab_size: 60
+  forced_hosts:
+    pvp.md-5.net: pvp
+  tab_list: GLOBAL_PING
+  bind_local_address: true
+  ping_passthrough: false
+  query_enabled: false
+  proxy_protocol: false
+  priorities:
+  - lobby
+online_mode: false
