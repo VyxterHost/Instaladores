@@ -1,0 +1,6 @@
+VyxterHost:
+➤ Eula aceptado y permitido para este servidor por VyxterHost, si su servidor incumple algún termino (https://account.mojang.com/documents/minecraft_eula) será penalizado permanentemente. 
+➤ Eula accepted and allowed for this server by VyxterHost, if your server violates any term (https://account.mojang.com/documents/minecraft_eula) you will be penalized permanently. 
+
+Minecraft:
+eula=true
